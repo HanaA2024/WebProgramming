@@ -1,0 +1,67 @@
+/* Global Styles */
+body {
+    background-color: #f0f8ff; /* Light background color */
+    font-family: Arial, sans-serif; /* Default font */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+}
+
+h1 {
+    color: white; /* Changes text color */
+}
+
+/* Paragraph Styling */
+p {
+    color: #333; /* Dark gray text */
+    padding: 10px;
+    line-height: 1.5; /* Improves readability */
+}
+
+/* List Styling */
+ul {
+    list-style-type: square; /* Changes bullet style */
+    color: #3498db; /* Bullet color */
+}
+
+li {
+    color: #2c3e50; /* List item text color */
+}
+
+/* Link Styling */
+a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none; /* Adds underline on hover */
+}
+
+/* Box Styling */
+.styled-box {
+    border: 2px solid #7f8c8d; /* Adds a solid border */
+    background-color: #d3d3d3; /* Light gray background */
+    padding: 15px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .styled-box {
+        padding: 10px;
+    }
+}
